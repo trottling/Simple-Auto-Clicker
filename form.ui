@@ -29,14 +29,14 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Auto Clicker</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QSlider" name="sleep_up_slider">
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>132</y>
+      <y>66</y>
       <width>301</width>
       <height>22</height>
      </rect>
@@ -77,36 +77,12 @@
      <number>10</number>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>351</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Segoe Fluent Icons</family>
-      <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Trottling Auto clicker</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>84</y>
-      <width>151</width>
+      <y>18</y>
+      <width>161</width>
       <height>26</height>
      </rect>
     </property>
@@ -124,8 +100,8 @@
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>200</y>
-      <width>151</width>
+      <y>134</y>
+      <width>161</width>
       <height>26</height>
      </rect>
     </property>
@@ -143,7 +119,7 @@
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>250</y>
+      <y>184</y>
       <width>301</width>
       <height>22</height>
      </rect>
@@ -185,7 +161,7 @@
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>297</y>
+      <y>231</y>
       <width>301</width>
       <height>30</height>
      </rect>
@@ -225,9 +201,9 @@
    <widget class="QLineEdit" name="sleep_up_lineEdit">
     <property name="geometry">
      <rect>
-      <x>275</x>
-      <y>84</y>
-      <width>50</width>
+      <x>260</x>
+      <y>18</y>
+      <width>71</width>
       <height>26</height>
      </rect>
     </property>
@@ -259,9 +235,9 @@
    <widget class="QLineEdit" name="sleep_to_lineEdit">
     <property name="geometry">
      <rect>
-      <x>275</x>
-      <y>200</y>
-      <width>50</width>
+      <x>260</x>
+      <y>134</y>
+      <width>71</width>
       <height>26</height>
      </rect>
     </property>
@@ -316,8 +292,8 @@
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>346</y>
-      <width>126</width>
+      <y>280</y>
+      <width>151</width>
       <height>26</height>
      </rect>
     </property>
@@ -334,9 +310,9 @@
    <widget class="QSpinBox" name="spinBox_cycle_clicks">
     <property name="geometry">
      <rect>
-      <x>275</x>
-      <y>346</y>
-      <width>51</width>
+      <x>260</x>
+      <y>280</y>
+      <width>71</width>
       <height>26</height>
      </rect>
     </property>
@@ -351,6 +327,38 @@
     </property>
     <property name="value">
      <number>5</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_cycle_clicks_2">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>340</y>
+      <width>171</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Fluent Icons</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Клавиша для бинда:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="key_bind_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>340</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>

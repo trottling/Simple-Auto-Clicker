@@ -1,0 +1,3 @@
+fastrand
+PyQt6
+pynput
