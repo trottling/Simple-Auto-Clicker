@@ -31,3 +31,4 @@
 
 
 
+![изображение](https://github.com/user-attachments/assets/34bc4225-5ee3-4b57-8736-65676f9076c1)
